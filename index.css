@@ -37,8 +37,10 @@ img {
   padding: 10px;
   grid-area: 1 / 1 / 5 / 7;
 
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 .logo1 {
@@ -112,6 +114,7 @@ img {
   }
 
   .info {
+    font-size: 2rem;
     grid-area: 1 / 1 / 4 / 3;
   }
 
